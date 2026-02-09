@@ -1,0 +1,12 @@
+{
+  "x-api-key": "reqres_952f5e0ffa4440fd823d2bd5d47de62f",
+  "Content-type": "application/json",
+  "endpoint": "/users",
+  "Languages": ["hindi", "Marathi", "english"],
+  "Contacts": [
+    "e-mail:kalyani.pidurkar@gmail.com",
+    "phone:98960382251",
+    "city:bhanduk",
+    "Area:lawn"
+  ]
+}

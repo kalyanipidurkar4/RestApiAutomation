@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite">
+
+    <listeners>
+        <listener class-name="utils.AnnotationTransformer"></listener>
+    </listeners>
+    
+    <test name="Getting user test">
+
+        <!--<packages>
+         <package name="UserManagement"></package>
+        </packages>
+
+        -->
+
+        <classes>
+            <class name="UserManagement.TestListener"></class>
+        </classes>
+    </test>
+</suite>
+    
+

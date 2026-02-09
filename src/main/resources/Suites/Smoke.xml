@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite">
+
+    <test name="Getting user test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="UserManagement"></package>
+        </packages>
+    </test>
+</suite>
+
+<!--always write package or class after group otherwise we will get no test were found-->
+

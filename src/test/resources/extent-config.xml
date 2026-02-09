@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+
+        <!-- Report Theme -->
+        <theme>standard</theme>
+        <!-- options: standard / dark -->
+
+        <!-- Document Title (Browser Tab Name) -->
+        <documentTitle>API Automation Report</documentTitle>
+
+        <!-- Report Name (Top of Report) -->
+        <reportName>Rest Assured Test Execution</reportName>
+
+        <!-- Time Stamp Format -->
+        <timeStampFormat>dd-MMM-yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Encoding -->
+        <encoding>utf-8</encoding>
+
+        <!-- Protocol -->
+        <protocol>https</protocol>
+
+        <!-- CSS Customization (Optional) -->
+        <!--
+        <css>
+            <![CDATA[
+                .badge-primary { background-color: #1f6feb; }
+            ]]>
+        </css>
+        -->
+
+        <!-- JavaScript Customization (Optional) -->
+        <!--
+        <js>
+            <![CDATA[
+                console.log('Extent Report Loaded');
+            ]]>
+        </js>
+        -->
+
+    </configuration>
+</extentreports>

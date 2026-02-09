@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite">
+    <test name="Api methods parallel execution" parallel="methods" thread-count="2">
+       <!-- <classes>
+            <class name="UserManagement.GetUsers"></class>
+        </classes>
+    </test>-->
+    <!--Parallel execution of methods which are in groups-->
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+        <classes>
+            <class name="UserManagement.GetUsers"></class>
+            <class name="UserManagement.GetUsersTest"></class>
+        </classes>
+        
+    </test>
+</suite>

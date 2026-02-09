@@ -57,6 +57,8 @@ public class GetUsers {
             // System.out.println(h.getName()+":"+h.getValue());
             if (h.getName().contains("Content-Type")) {
                 assertEquals(h.getValue(), "text/html; charset=UTF-8");
+                System.out.println("Assertion validated successfully");
+                System.out.println("Master code");
                 System.out.println("assertion validated");
             }
         }

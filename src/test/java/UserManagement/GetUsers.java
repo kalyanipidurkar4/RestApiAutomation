@@ -59,7 +59,7 @@ public class GetUsers {
                 assertEquals(h.getValue(), "text/html; charset=UTF-8");
                 System.out.println("Assertion validated successfully");
                 System.out.println("Master code");
-                System.out.println("assertion validated");
+               // System.out.println("assertion validated");
             }
         }
     }
